@@ -1,0 +1,16 @@
+{% extends 'blogs/base.html' %}
+
+{% block page_header %}
+    <div class="jumbotron">
+        <h1 class="display-3">Блог</h1>
+
+        <p class="lead">Блог (англ. blog, от web log — интернет-журнал событий, интернет-дневник,
+            дневник в реальном времени (онлайн-дневник)) — веб-сайт, основное содержимое которого —
+            регулярно добавляемые пользователем записи, содержащие текст, изображения или мультимедиа.</p>
+
+        <a class="btn btn-lg btn-primary" href="{% url 'users:register' %}" role="button">Регистрация &raquo;</a>
+
+    </div>
+
+{% endblock page_header %}
+
